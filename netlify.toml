@@ -1,6 +1,7 @@
 [build]
-  publish = "public"
   command = "npm run build"
+  publish = "public"
 
-[[plugins]]
-  package = "@netlify/plugin-vite"
+[dev]
+  command = "npm run dev"
+  targetPort = 5173
